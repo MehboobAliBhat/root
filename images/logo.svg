@@ -1,0 +1,11 @@
+<svg id="Logo"
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+	<defs>
+		<style>.white{fill:#fff;}.smashing{fill:#b23226;}</style>
+	</defs>
+	<title>Mehboob Ali Logo</title>
+	<polygon class="white" points="42.67 17.16 0 91.05 85.33 91.05 42.67 17.16"/>
+	<polygon class="white" points="85.33 17.16 42.67 91.05 128 91.05 85.33 17.16"/>
+	<polygon class="smashing" points="42.67 54.1 0 128 85.33 128 42.67 54.1"/>
+	<polygon class="smashing" points="85.33 54.1 42.67 128 128 128 85.33 54.1"/>
+</svg>

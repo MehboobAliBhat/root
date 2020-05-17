@@ -1,0 +1,10 @@
+<svg
+	xmlns="http://www.w3.org/2000/svg" viewBox="0 0 95 95">
+	<defs>
+		<style>.white{fill:#fff;}</style>
+	</defs>
+	<title>Facebook Logo</title>
+		<g id="facebook" data-name="facebook">
+			<path class="white" d="M83.12,0H11.88A11.91,11.91,0,0,0,0,11.88V83.13A11.91,11.91,0,0,0,11.88,95h36V60.94H36.53V46.1H47.91V38.66c0-11.46,8.46-20.43,19.26-20.43H77.66V35H68.28c-2.46,0-3.18,1.41-3.18,3.36V46.1H77.66V60.94H65.1V95h18A11.91,11.91,0,0,0,95,83.13V11.88A11.91,11.91,0,0,0,83.12,0Z"/>
+		</g>
+</svg>

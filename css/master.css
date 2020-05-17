@@ -1,15 +1,66 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap');
 @import "reset.css";
+:root {
+  /* filter: grayscale(); */
+  font-size: 62.5%;
+}
 body{
   font-family: 'Raleway', sans-serif;
+  font-size: calc(1.5rem + .2vw);
+  color: #fff;
+  background-color: #b13125;
+  min-height: 100vh;
 }
-h1,h2,h3{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2em;
+a{color: #fff;}
+a:hover,a:focus{color: #fff;}
+em{font-style: italic;}
+strong{font-weight: bold;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {font-family: 'Montserrat', sans-serif;}
+.hidden{
+  display: none;
 }
-header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
+
+/*===================
+  Home Page Style
+=====================*/
+
+.homepage-content{
+  padding: 0 5vw;
+}
+.index-nav{
+  margin-bottom:5vh;
+}
+.index-nav-link{
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 .5rem;
+}
+.index-nav-link:hover,.index-nav-link:focus{
+  text-decoration: underline;
+}
+.index-nav-link:first-of-type{padding-left: 0;}
+.main-content{
+  max-width: calc(40rem + 10vw);
+}
+.main-content p{
+  line-height: 2rem;
+  margin-bottom: calc(.7rem + 2vh);
+}
+
+.social-logos a{
+  text-decoration:none;
+}
+.social-logos__logo{
+  width: 4rem;
+  padding: 0 1rem;
+}
+@media screen and (min-width:500px) {
+  .logo{
+    max-width: 15rem;
+  }
 }
